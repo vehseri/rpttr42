@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">rpttr</string>
+    <string name="login">войти как..</string>
+    <string name="teacher">репетитор</string>
+    <string name="pupil">ученик</string>
+    <string name="parent">родитель</string>
+    <string name="register">регистрация</string>
+    <string name="or">или</string>
+    <string name="underconstruction">в разработке</string>
+</resources>

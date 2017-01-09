@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     TextView textLoginAs;
-    Button buttonAsTeacher, buttonAsPupil;
+    Button buttonAsTeacher, buttonAsPupil, buttonAsParent, buttonRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,10 @@ public class MainActivity extends AppCompatActivity {
         textLoginAs = (TextView)findViewById(R.id.textLoginAs);
         buttonAsPupil = (Button)findViewById(R.id.buttonAsPupil);
         buttonAsTeacher = (Button)findViewById(R.id.buttonAsTeacher);
+        buttonAsParent = (Button)findViewById(R.id.buttonAsParent);
+        buttonRegister = (Button)findViewById(R.id.buttonRegister);
     }
+    /* обработка нажатия на кнопки teacher, pupil, parent, register */
     private void setButtonBehavior(){
         buttonAsPupil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +40,17 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, R.string.teacher, Toast.LENGTH_SHORT).show();
             }
         });
-
+        buttonAsParent.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, R.string.parent, Toast.LENGTH_SHORT).show();
+            }
+        });
+        buttonRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, R.string.underconstruction, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

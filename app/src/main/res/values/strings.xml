@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Rpttr42</string>
+    <string name="app_name">rpttr</string>
     <string name="login">login as..</string>
     <string name="teacher">teacher</string>
     <string name="pupil">pupil</string>
+    <string name="parent">parent</string>
+    <string name="register">register</string>
+    <string name="or">or</string>
+    <string name="underconstruction">Under construction!</string>
 </resources>
