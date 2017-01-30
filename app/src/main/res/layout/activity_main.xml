@@ -36,3 +36,4 @@
         android:text="@string/register"
         style="@style/TextAndButton" />
 </LinearLayout>
+<!-- -->
