@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <menu xmlns:app="http://schemas.android.com/apk/res/android" >
+        <item app:id="@+id/menuButtonSchedule"
+            app:showAsAction="always"
+            app:icon="@drawable/schedule"
+            style="@style/ImageButtons"></item>
+        <item app:id="@+id/menuButtonContacts"
+            app:showAsAction="always"
+            app:icon="@drawable/contacts"
+            style="@style/ImageButtons"></item>
+        <item app:id="@+id/menuButtonMessages"
+            app:showAsAction="always"
+            app:icon="@drawable/messages"
+            style="@style/ImageButtons"></item>
+        <item app:id="@+id/menuButtonUser"
+            app:showAsAction="always"
+            app:icon="@drawable/user"
+            style="@style/ImageButtons"></item>
+        <item app:id="@+id/menuButtonTasks"
+            app:showAsAction="always"
+            app:icon="@drawable/books"
+            style="@style/ImageButtons"></item>
+        <item app:id="@+id/menuButtonExit"
+            app:showAsAction="always"
+            app:icon="@drawable/exit"
+            style="@style/ImageButtons"></item>
+    </menu>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main_window"
         android:layout_width="match_parent"
@@ -35,4 +65,4 @@
             android:id="@+id/buttonRegister"
             android:text="@string/register"
             style="@style/TextAndButton" />
-    </LinearLayout>
+</LinearLayout>
