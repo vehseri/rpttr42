@@ -43,9 +43,6 @@
                         style="@style/ImageButtons"
                         android:src="@drawable/exit"
                         />
-                <ImageButton
-                    android:layout_width="0dp"
-                    android:layout_height="0dp" />
         </LinearLayout>
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
