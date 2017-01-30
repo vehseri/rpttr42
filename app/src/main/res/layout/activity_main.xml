@@ -1,46 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
-    tools:context="com.vehseri.rpttr42.MainActivity">
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_main_menu"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_gravity="top"
-        android:orientation="vertical"
-        tools:context="com.vehseri.rpttr42.MainActivity"
-        android:layout_weight="7">
-        <ImageButton
-            android:id="@+id/menuButtonUser"
-            android:src="@drawable/user"
-            style="@style/ImageButtons"
-            />
-        <ImageButton
-            android:id="@+id/menuButtonContacts"
-            android:src="@drawable/contacts"
-            style="@style/ImageButtons"
-            />
-        <ImageButton
-            android:id="@+id/menuButtonMessages"
-            android:src="@drawable/messages"
-            style="@style/ImageButtons"
-            />
-        <ImageButton
-            android:id="@+id/menuButtonTasks"
-            android:src="@drawable/books"
-            style="@style/ImageButtons"/>
-        <ImageButton
-            android:id="@+id/menuButtonSchedule"
-            android:src="@drawable/schedule"
-            style="@style/ImageButtons"
-            />
-    </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main_window"
@@ -78,4 +36,3 @@
             android:text="@string/register"
             style="@style/TextAndButton" />
     </LinearLayout>
-</LinearLayout>
