@@ -21,6 +21,8 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:scaleType">fitXY</item>
+        <item name="android:scaleType">fitXY</item> <!-- разобраться как вписать картинку в поле кнопки -->
+        <item name="android:padding">@dimen/paddingTop</item>
+        <item name="android:background">transparent</item>
     </style>
 </resources>
