@@ -17,32 +17,32 @@
                 <ImageButton
                         android:id="@+id/menuButtonUser"
                         style="@style/ImageButton"
-                        android:src="@drawable/user"
-                        />
+                        android:src="@drawable/user"/>
                 <ImageButton
                         android:id="@+id/menuButtonContacts"
                         style="@style/ImageButton"
-                        android:src="@drawable/contacts"
-                        />
+                        android:src="@drawable/contacts" />
                 <ImageButton
                         android:id="@+id/menuButtonMessages"
                         style="@style/ImageButton"
-                        android:src="@drawable/messages"
-                        />
+                        android:src="@drawable/messages"/>
                 <ImageButton
                         android:id="@+id/menuButtonSchedule"
                         style="@style/ImageButton"
-                        android:src="@drawable/schedule"
-                        />
+                        android:src="@drawable/schedule"/>
                 <ImageButton
                         android:id="@+id/menuButtonTasks"
                         style="@style/ImageButton"
-                        android:src="@drawable/books"
-                        />
+                        android:src="@drawable/books"/>
                 <ImageButton
                         android:id="@+id/menuButtonExit"
                         style="@style/ImageButton"
-                        android:src="@drawable/exit"
+                        android:src="@drawable/exit"/>
+                <ImageButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="6"
+                        android:background="@android:color/transparent"
                         />
         </LinearLayout>
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
