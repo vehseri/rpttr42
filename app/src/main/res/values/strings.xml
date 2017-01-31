@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">rpttr v.0.0.1</string>
     <string name="login">login as..</string>
     <string name="teacher">teacher</string>
     <string name="pupil">pupil</string>
