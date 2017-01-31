@@ -15,32 +15,32 @@
             android:gravity="top">
                 <ImageButton
                         android:id="@+id/menuButtonUser"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/user"
                         />
                 <ImageButton
                         android:id="@+id/menuButtonContacts"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/contacts"
                         />
                 <ImageButton
                         android:id="@+id/menuButtonMessages"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/messages"
                         />
                 <ImageButton
                         android:id="@+id/menuButtonSchedule"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/schedule"
                         />
                 <ImageButton
                         android:id="@+id/menuButtonTasks"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/books"
                         />
                 <ImageButton
                         android:id="@+id/menuButtonExit"
-                        style="@style/ImageButtons"
+                        style="@style/ImageButton"
                         android:src="@drawable/exit"
                         />
         </LinearLayout>

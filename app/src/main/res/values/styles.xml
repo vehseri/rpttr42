@@ -17,12 +17,12 @@
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
     <!-- style for image buttons -->
-    <style name="ImageButtons">
+    <style name="ImageButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:scaleType">fitCenter</item> <!-- разобраться как вписать картинку в поле кнопки -->
+        <item name="android:scaleType">fitCenter</item>
         <item name="android:padding">@dimen/paddingTop</item>
-        <item name="android:background">transparent</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
 </resources>
